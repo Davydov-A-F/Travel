@@ -1,0 +1,218 @@
+main {
+margin: 0 auto;   
+position: relative;
+width: 1440px;
+height: 3735px;
+background: url('../Travel/images/background-mountains.jpg.jpg');
+background-repeat: no-repeat;       
+}
+
+.header-nav {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    position: absolute; 
+    padding-top: 26px;
+    padding-right: 1290px;
+    padding-bottom: 34px;
+    padding-left: 120px;  
+}
+
+.logo__text {
+    position: absolute;
+    width: 180px;
+    height: 31px;
+    left: 156px;
+    top: 25px;
+
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.list {
+    list-style-type: none; 
+    display: flex;
+    margin: 0;
+    padding-top: 64px;
+    padding-left: 494px;
+    
+}
+
+.list_item {
+    margin-right: 42px;
+     }
+
+     .list_item:last-child {
+        margin-right: 0;
+         }
+
+.list_link {
+    margin: 0;
+    width: 98px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    /*flex: none;*/
+    order: 0;
+    flex-grow: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}   
+
+.list_link:hover {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-bottom: 2px solid #ffffff;
+ }
+
+.header__btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px 229px;*/
+    gap: 10px;
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    left: 1194px;
+    top: 25px;
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.btn_link  {
+width: 43px;
+height: 21px;
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+
+color: #FFFFFF;
+text-decoration: none;
+
+
+}
+
+.header_description {
+    position: absolute;
+width: 852px;
+height: 422px;
+left: 120px;
+top: 122px;
+
+font-family: 'Aleo';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 96px;
+
+color: #FFFFFF;
+}
+
+.description_recommendations {
+    position: absolute;
+width: 723px;
+height: 24px;
+left: 120px;
+top: 397px;
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.searching {
+position: absolute;
+width: 892px;
+height: 95px;
+left: 120px;
+top: 497px;
+
+background: rgba(255, 255, 255, 0.7);
+border-radius: 16px;
+}
+
+.searching_form {
+position: absolute;
+width: 560px;
+height: 22px;
+left: 30px;
+top: 8px;
+
+font-family: 'Aleo';
+font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #F2785C;
+}
+
+.planing_btn {
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 32px;
+gap: 10px;
+
+position: absolute;
+width: 228px;
+height: 59px;
+left: 644px;
+top: 17px;
+
+background: #0D606F;
+box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+border-radius: 10px;
+border: none;
+}
+
+.btn_searching {
+width: 163px;
+height: 32px;
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+text-decoration: none;
+
+}  
