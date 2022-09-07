@@ -1,61 +1,328 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Travel Portal</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Magra:wght@700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Magra:wght@700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@400;700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:ital,wght@0,500;1,500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header_inner">
+          <div class="logo">
+            <img class="logo_img" src="./images/header_logo.svg" />
+            <span class="logo__text">Travel Portal</span>
+          </div>
+          <nav>
+            <ul class="nav_list">
+              <li class="list_item">
+                <a href="#" class="list_link">How It Works</a>
+              </li>
+              <li class="list_item">
+                <a href="#" class="list_link">Plan Your Trip</a>
+              </li>
+              <li class="list_item">
+                <a href="#" class="list_link">Destinations</a>
+              </li>
+              <li class="list_item">
+                <a href="#" class="list_link">Travel Stories</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button header__btn btn_link">Login</button>
+        </div>
+      </div>
+    </header>
 
+    <main>
+      <section class="welcome">
+        <div class="welcome__inner">
+          <h1 class="header_description">Explore the beauty of the World</h1>
+          <p class="description_recommendations">
+            Receive personalized recommendations for countries, hotels,
+            activities and more
+          </p>
+          <div class="searching">
+            <input
+              class="searching_form"
+              value="What would you like to do?"
+              disabled
+            />
+            <button class="button planing__btn">Start Planing</button>
+          </div>
+        </div>
+      </section>
 
-    </head>
-<body>
-       <main>
-        <header class="header-nav"> 
-            <div class="container">              
-                <div class="logo"> 
-                    <img src="./images/header_logo.svg.svg"  width="30px" height="30px">
-                    <span class="logo__text">Travel Portal</span>
-                </div>
-                    <nav>
-                        <ul class="list">
-                            <li class="list_item">
-                                <a href="#" class="list_link">How It Works</a>
-                            </li>
-                            <li class="list_item">
-                                <a href="#" class="list_link">Plan Your Trip</a>
-                            </li>
-                            <li class="list_item">
-                                <a href="#" class="list_link">Destinations</a>                             
-                            </li>
-                            <li class="list_item">
-                                <a href="#" class="list_link">Travel Stories</a>
-                            </li>
-                        </ul>
-                    </nav>
-                        <button class="header__btn">
-                            <a href="#" class="btn_link">Login</a>
-                        </button>
-                
-            </div>
-            <p class="header_description">Explore the beauty of the World</p>
-            <p class="description_recommendations">Receive personalized recommendations for countries, hotels, activities and more</p>
-              <div class="searching">
-                <p class="searching_form">What would you like to do?</p>
-                <button class="planing_btn">
-                    <a href="#" class="btn_searching">Start Planing</a>
-                </button>
+      <section class="steps">
+        <div class="container">
+          <h2 class="section__title">3 STEPS TO THE PERFECT TRIP</h2>
 
+          <div class="steps_icons">
+            <div class="steps_icon">
+              <div class="icon__background">
+                <img src="./images/icons_steps/bike.svg" />
               </div>
-        </header>
+              <p class="icon__title">Tell us what you want to do</p>
+            </div>
+
+            <div class="steps_icon">
+              <div class="icon__background">
+                <img src="./images/icons_steps/calculator.svg" />
+              </div>
+              <p class="icon__title">Share us preferable dates</p>
+            </div>
+
+            <div class="steps_icon">
+              <div class="icon__background">
+                <img src="./images/icons_steps/plane.svg" />
+              </div>
+              <p class="icon__title">We will give you recommendations</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="destinations">
+        <h2 class="section__title">POPULAR DESTINATIONS</h2>
+
+        <div class="slider">
+          <div class="slider__wrapper">
+            <img
+              class="slider__item"
+              src="../Travel/images/Slider/Rocks.png"
+              alt="#"
+            />
+            <img
+              class="slider__item"
+              src="../Travel/images/Slider/Japan.png"
+              alt="#"
+            />
+            <img
+              class="slider__item"
+              src="../Travel/images/Slider/Bridge.png"
+              alt="#"
+            />
+          </div>
+        </div>
+        <div class="circle_buttons">
+          <div class="light__button">
+            <img
+              src="../Travel/images/Circle_buttons/lite_button.png"
+              alt="#"
+            />
+          </div>
+          <div class="dark_button">
+            <img
+              src="../Travel/images/Circle_buttons/dark_button.png"
+              alt="#"
+            />
+          </div>
+          <div class="light__button">
+            <img
+              src="../Travel/images/Circle_buttons/lite_button.png"
+              alt="#"
+            />
+          </div>
+        </div>
+        <div class="arrow__btn">
+          <button class="button planing__btn">
+            <div>
+              <img
+                class="btn__arrow"
+                src="..//Travel/images/buttton_arrow.svg"
+                alt="#"
+              />
+            </div>
+            Find More
+          </button>
+        </div>
+      </section>
+
+      <section class="stories">
+        <h2 class="section__title">TRAVEL STORIES</h2>
+
+        <div class="stories_background">
+          <div class="stories__inner">
+            <div class="container">
+              <div class="stories__content">
+                <div class="stories__item">
+                  <img
+                    class="story_image"
+                    src="./images/Stories/Boat_story.png"
+                    alt=""
+                  />
+                  <div>
+                    <h3>10 Photos of Attractive Thailand</h3>
+                    <p class="icon__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit... Read More
+                      <a class="icon__title" href="#">Read more</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="stories__item">
+                  <img
+                    class="story_image"
+                    src="./images/Stories/Road_story.png"
+                    alt=""
+                  />
+                  <div>
+                    <h3>Canyonlands National Park, Utah</h3>
+                    <p class="icon__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit... Read More
+                      <a class="icon__title" href="#">Read more</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="stories__item">
+                  <img
+                    class="story_image"
+                    src="./images/Stories/Mountain_story.png"
+                    alt=""
+                  />
+                  <div>
+                    <h3>I left my heart in the Mountains!</h3>
+                    <p class="icon__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit... Read More
+                      <a class="icon__title" href="#">Read more</a>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="stories__item">
+                  <img
+                    class="story_image"
+                    src="./images/Stories/Bus_story.png"
+                    alt=""
+                  />
+                  <div>
+                    <h3>The Longest journey in my life!</h3>
+                    <p class="icon__title">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum.Lorem ipsum
+                      dolor sit amet, consectetur adipiscing elit... Read More
+                      <a class="icon__title" href="#">Read more</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arrow__btn">
+              <button class="button planing__btn">
+                <div>
+                  <img
+                    class="btn__arrow"
+                    src="..//Travel/images/buttton_arrow.svg"
+                    alt="#"
+                  />
+                </div>
+                See More
+              </button>
+            </div>
+          </div>
+          <footer>
+            <div></div>
+            <p class="footer_text">All Rights Reserved © Travel Portal</p>
+            <div>
+              <a class="footer_link" href="#"></a>
+              <a class="footer_link" href="#"></a>
+              <a class="footer_link" href="#"></a>
+            </div>
+          </footer>
+        </div>
+      </section>
+
+      <div class="modal">
+        <div class="modal__inner">
+          <h3 class="modal_title">Log in to your account</h3>
+
+          <button class="sign__in btn_facebook">
+            <img class="btn_image" src="./images/logo_facebook.svg" alt="" />
+            Sign In with Facebook
+          </button>
+
+          <button class="sign__in btn_google">
+            <img class="btn_image" src="./images/Google_Logo.svg" alt="" />
+            Sign In with Google
+          </button>
+
+          <p class="modal__devider">or</p>
+
+          <label for="E-mail" class="empty_email">E-mail</label>
+          <input id="E-mail" class="empty_form btn_google" type="text" />
+
+          <label for="Password" class="empty_email">Password</label>
+          <input id="Password" class="empty_form btn_google" type="text" />
+
+          <button class="sign__in sign_btn">Sign In</button>
+
+          <a class="forgot__link" href="http://">Forgot Your Password?</a>
+
+          <p class="no_account">
+            Don’t have an account?<a class="registration__link" href="http://">
+              Register</a
+            >
+          </p>
+        </div>
+      </div>
     </main>
-</body>
+
+    <script src="./index.js"></script>
+  </body>
 </html>
