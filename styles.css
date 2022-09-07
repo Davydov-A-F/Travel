@@ -1,0 +1,548 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+body,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  color: #0d606f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  background: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: none;
+
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: all 0.4s linear;
+}
+
+.btn_link {
+}
+
+.section__title {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 53px;
+  color: #f2785c;
+  text-align: center;
+}
+
+/* HEADER */
+
+.header {
+  position: absolute;
+  width: 100%;
+
+  background: rgba(242, 120, 92, 0.7);
+  box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+}
+
+.logo_img {
+}
+
+.logo__text {
+  font-family: "Magra";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #ffffff;
+}
+
+.nav_list {
+  display: flex;
+}
+
+.list_item {
+  margin-right: 42px;
+}
+
+.list_item:last-child {
+  margin-right: 0;
+}
+
+.list_link {
+  margin: 0;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  /*flex: none;*/
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.list_link:hover {
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: underline;
+  /*border-bottom: 2px solid #ffffff;*/
+}
+
+.header__btn {
+  padding: 10px 30px;
+}
+
+/* WELCOME */
+
+.welcome {
+  background: url("./images/background-mountains.jpg");
+  background-repeat: no-repeat;
+
+  height: 745px;
+  background-size: cover;
+}
+
+.welcome__inner {
+  padding-top: 114px;
+  padding-left: 78px;
+  width: 892px;
+}
+
+.header_description {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 96px;
+
+  color: #ffffff;
+}
+
+.description_recommendations {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 45px;
+}
+
+.searching {
+  height: 95px;
+  margin-top: 46px;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 41px;
+
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.searching_form {
+  font-family: "Aleo";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  background: transparent;
+  border: none;
+
+  color: #f2785c;
+}
+
+.planing__btn {
+  padding: 13px 32px;
+}
+
+/* STEPS */
+
+.steps {
+  margin-top: 80px;
+}
+
+.steps_icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.steps_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon__background {
+  width: 100px;
+  height: 100px;
+  background: #f2785c;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.icon__logo {
+  text-align: center;
+}
+
+.icon__title {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0d606f;
+
+  margin-top: 30px;
+}
+
+.destinations {
+  margin-top: 120px;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.slider {
+  width: 100%;
+  height: 800px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.slider__wrapper {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  margin-top: 47px;
+
+  transform: translate(-50%, 0);
+  transition: all 1s linear;
+}
+
+.slider__item {
+  width: 800px;
+  height: 800px;
+
+  margin-left: 80px;
+}
+
+.slider__item:first-child {
+  margin-left: 0;
+}
+
+.circle_buttons {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 23px;
+}
+
+.light__button {
+  margin-right: 10px;
+}
+
+.dark_button {
+  margin-right: 10px;
+}
+
+.light__button:last-child {
+  margin-right: 0px;
+}
+
+.planing__btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn__arrow {
+  margin-right: 12px; /* 99% error */
+}
+
+/* STORIES */
+
+.stories_background {
+  background: url(./images/Stories/Boat_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  position: relative;
+}
+
+.stories__inner {
+  background: rgba(255, 255, 255, 0.7);
+
+  padding-bottom: 41px;
+}
+
+.stories__item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.stories__item:first-child {
+  padding-top: 40px;
+}
+
+.story_image {
+  filter: drop-shadow(0px 4px 4px #0d606f);
+  border-radius: 16px;
+
+  margin-right: 40px;
+}
+
+/* FOOTER */
+
+.footer_link {
+  display: block;
+  height: 31px;
+  width: 31px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(./images/buttton_arrow.svg);
+}
+
+.footer_text {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+}
+
+/* MODAL */
+
+.modal {
+  position: fixed;
+  top: -1000;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.modal__active {
+  top: 0;
+  height: 100%;
+}
+
+.modal__inner {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 45px;
+  background: linear-gradient(177.09deg, #ffffff 6.15%, #0d606f 202.69%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.modal_title {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #0d606f;
+  display: flex;
+  justify-content: center;
+}
+
+.sign__in {
+  color: #fff;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  border: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_facebook {
+  background: #1877f2;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.btn_google {
+  background: #ffffff;
+  color: #0d606f;
+  margin-top: 20px;
+}
+
+.modal__devider {
+  display: flex;
+  align-items: center;
+
+  margin-top: 30px;
+
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(13, 96, 111, 0.5);
+}
+
+.modal__devider::after,
+.modal__devider::before {
+  content: "";
+  display: block;
+  background-color: #0d606f;
+  width: 100%;
+  height: 1px;
+}
+
+.modal__devider::before {
+  margin-right: 9px;
+}
+
+.modal__devider::after {
+  margin-left: 9px;
+}
+
+.btn_image {
+  margin-right: 15px;
+}
+
+.btn_email {
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+    inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+
+.empty_email {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0d606f;
+  margin-top: 22px;
+}
+
+.empty_form {
+  font-size: 18px;
+  padding-left: 10px;
+
+  width: 560px;
+  height: 54px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08),
+    inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  border: 0;
+  margin-top: 5px;
+}
+
+.sign_btn {
+  background: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.forgot__link,
+.registration__link {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #0d606f;
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forgot__link::after {
+  content: "";
+  display: block;
+  background-color: #0d606f;
+  width: 100%;
+  height: 1px;
+  margin-top: 26px;
+}
+
+.no_account {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(13, 96, 111, 0.5);
+  text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+  text-align: center;
+  margin-top: 20px;
+}
